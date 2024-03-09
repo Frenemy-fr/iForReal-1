@@ -3,10 +3,12 @@ body{
 }
 .navbar{
     display: flex;
-    background-color: #001d21;
+    background-color: #606263;
+    margin: 0;
 }
 .logo img{
     width: 2.3rem;
+    margin-right: 1rem;
 }
 .logo{
     display: flex;
@@ -35,6 +37,9 @@ body{
 .products:hover{
     color: rgb(103, 157, 103);
 }
+.products:active{
+    color: rgb(59, 98, 59);
+}
 .resources{
     margin-left: 2rem;
     transition: 0.16s; 
@@ -42,11 +47,17 @@ body{
 .resources:hover{
     color: rgb(103, 157, 103);
 }
+.resources:active{
+    color: rgb(59, 98, 59);
+}
 .pricing{
     transition: 0.16s; 
 }
 .pricing:hover{
     color: rgb(103, 157, 103);
+}
+.pricing:active{
+    color: rgb(59, 98, 59);
 }
 .btn{
     margin-left: 35rem;
@@ -56,17 +67,34 @@ body{
 .signin{
     background-color: rgb(103, 157, 103);
     border: none;
-    padding: 5px 8px;
+    padding: 6px 8px;
     color: white;
     font-family: arial;
     cursor: pointer;
-    
+    margin-right: 1rem;
+    font-weight: bold;
+    transition: 0.16s;
+}
+.signin:hover{
+    background-color: rgb(59, 98, 59);
+}
+.signin:active{
+    background-color: rgb(48, 80, 48);
 }
 .gtstart{
-    padding: 5px 8px;
+    padding: 6px 8px;
     background-color: white;
     border: none;
     border-radius: .2rem;
     color: black;
     cursor: pointer;
+    font-weight: bold;
+    transition: .16s;
+}
+.gtstart:hover{
+    background-color: black;
+    color: white;
+}
+.gtstart:active{
+    opacity: .7;
 }
