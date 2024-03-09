@@ -1,0 +1,72 @@
+body{
+    background-color: #001d21;
+}
+.navbar{
+    display: flex;
+    background-color: #001d21;
+}
+.logo img{
+    width: 2.3rem;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.webname{
+    margin-right: 2rem;
+    font-size: 2rem;
+    font-family: arial;
+    color: white;
+}
+.ppr{
+    display: flex;
+    font-size: 1.2rem;
+    color: white;
+    font-family: arial;
+    align-items: center;
+    cursor: pointer;
+}
+
+.products{
+    margin-right: 2rem;  
+    transition: 0.16s; 
+}
+.products:hover{
+    color: rgb(103, 157, 103);
+}
+.resources{
+    margin-left: 2rem;
+    transition: 0.16s; 
+}
+.resources:hover{
+    color: rgb(103, 157, 103);
+}
+.pricing{
+    transition: 0.16s; 
+}
+.pricing:hover{
+    color: rgb(103, 157, 103);
+}
+.btn{
+    margin-left: 35rem;
+    margin-top: .8rem;
+    cursor: pointer;
+}
+.signin{
+    background-color: rgb(103, 157, 103);
+    border: none;
+    padding: 5px 8px;
+    color: white;
+    font-family: arial;
+    cursor: pointer;
+    
+}
+.gtstart{
+    padding: 5px 8px;
+    background-color: white;
+    border: none;
+    border-radius: .2rem;
+    color: black;
+    cursor: pointer;
+}
