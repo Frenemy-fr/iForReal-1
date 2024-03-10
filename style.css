@@ -98,7 +98,6 @@ body{
 .hero-section{
     margin-top: 10rem;
     margin-left: 1rem;
-    height: 10rem;
 }
 .about{
     display: flex;
@@ -114,15 +113,13 @@ body{
 }
 .motto-main{
     font-size: 5rem;
-    max-width:45rem;
+    width:45rem;
     color: rgb(170, 165, 165);
-    /* margin-bottom: 2rem; */
 }
 .motto-sub{
     color: rgb(170, 165, 165);
     font-size: 1rem;
-    max-width: 20rem;
-    /* margin-bottom: 2rem; */
+    width: 20rem;
 }
 .contact-button{
     color: black;
@@ -131,7 +128,7 @@ body{
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    transition: 0.17s;
+    transition: 0.19s;
 }
 .contact-button:hover{
     background-color: black;
@@ -140,4 +137,33 @@ body{
 .contact-button:active{
     opacity: .7;
 }
-
+.main{
+    margin:3rem 1.5rem ;
+}
+.service-cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-top{
+    margin-bottom: .5rem;
+    color: rgb(170, 165, 165);
+    font-weight: bold;
+}
+.card-photo img{
+    height: 17rem;
+    border-radius: 10px;
+    transition: .2s;
+    cursor: pointer;
+}
+.card-bottom{
+    margin-top: 1rem;
+    font-size: .8rem;
+    width: 13rem;
+    color: rgb(170, 165, 165);
+}
+.card-photo img:hover{
+    scale: 1.05;
+}
+.card-photo img:active{
+    opacity: .7;
+}
