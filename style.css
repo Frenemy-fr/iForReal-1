@@ -1,100 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+    color: white;
+}
 body{
     background-color: #001d21;
 }
+
 .navbar{
     display: flex;
-    background-color: #606263;
-    margin: 0;
-}
-.logo img{
-    width: 2.3rem;
-    margin-right: 1rem;
+    justify-content: space-between;
+    background-color: #001d21;
+    align-items: center;
 }
 .logo{
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    width: 10rem;
     cursor: pointer;
 }
-.webname{
-    margin-right: 2rem;
-    font-size: 2rem;
-    font-family: arial;
-    color: white;
+.logo img{
+    width: 2rem;
+    /* margin-right: 1rem; */
 }
-.ppr{
+.logo p{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.pages{
     display: flex;
     font-size: 1.2rem;
-    color: white;
-    font-family: arial;
+    justify-content: space-between;
+    width: 20rem;
     align-items: center;
     cursor: pointer;
 }
+.products-tab{
+    transition: .2s;
+}
+.products-tab:hover{
+    color: rgb(103, 157, 103);
+}
+.products-tab:active{
+    color: rgb(59, 98, 59);
+}
+.pricing-tab{
+    transition: .2s;
+}
+.pricing-tab:hover{
+    color: rgb(103, 157, 103);
+}
+.pricing-tab:active{
+    color: rgb(59, 98, 59);
+}
+.resources-tab{
+    transition: 0.16s; 
+}
+.resources-tab:hover{
+    color: rgb(103, 157, 103);
+}
+.resources-tab:active{
+    color: rgb(59, 98, 59);
+}
 
-.products{
-    margin-right: 2rem;  
-    transition: 0.16s; 
-}
-.products:hover{
-    color: rgb(103, 157, 103);
-}
-.products:active{
-    color: rgb(59, 98, 59);
-}
-.resources{
-    margin-left: 2rem;
-    transition: 0.16s; 
-}
-.resources:hover{
-    color: rgb(103, 157, 103);
-}
-.resources:active{
-    color: rgb(59, 98, 59);
-}
-.pricing{
-    transition: 0.16s; 
-}
-.pricing:hover{
-    color: rgb(103, 157, 103);
-}
-.pricing:active{
-    color: rgb(59, 98, 59);
+.buttons{
+    display: flex;
+    width: 11rem;
+    justify-content: space-between;
+    margin-right: 1rem;
 }
 .btn{
-    margin-left: 35rem;
-    margin-top: .8rem;
-    cursor: pointer;
-}
-.signin{
+    padding: 6px 6px;
+    font-size: 1rem;
     background-color: rgb(103, 157, 103);
-    border: none;
-    padding: 6px 8px;
     color: white;
-    font-family: arial;
+    border: none;
+    border-radius: 3px;
+    transition: .2s;
     cursor: pointer;
-    margin-right: 1rem;
-    font-weight: bold;
-    transition: 0.16s;
 }
-.signin:hover{
-    background-color: rgb(59, 98, 59);
-}
-.signin:active{
-    background-color: rgb(48, 80, 48);
-}
-.gtstart{
-    padding: 6px 8px;
+.btn:hover{
     background-color: white;
-    border: none;
-    border-radius: .2rem;
-    color: black;
-    cursor: pointer;
-    font-weight: bold;
-    transition: .16s;
+    color: rgb(103, 157, 103);
 }
-.gtstart:hover{
-    background-color: black;
-    color: white;
-}
-.gtstart:active{
-    opacity: .7;
+.btn:active{
+    background-color: rgb(201, 198, 198);
 }
