@@ -145,20 +145,21 @@ body{
     justify-content: space-evenly;
 }
 .card-top{
-    margin-bottom: .5rem;
+    /* margin-bottom: .5rem; */
     color: rgb(170, 165, 165);
     font-weight: bold;
+    text-transform: capitalize;
 }
 .card-photo img{
-    height: 17rem;
+    height: 20rem;
     border-radius: 10px;
     transition: .2s;
     cursor: pointer;
 }
 .card-bottom{
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
     font-size: .8rem;
-    width: 13rem;
+    width: 15rem;
     color: rgb(170, 165, 165);
 }
 .card-photo img:hover{
@@ -166,4 +167,28 @@ body{
 }
 .card-photo img:active{
     opacity: .7;
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    height: 30rem;
+    justify-content: space-around;
+}
+.card2{
+    display: flex;
+    flex-direction: column;
+    height: 30rem;
+    justify-content: space-around;
+}
+.card3{
+    display: flex;
+    flex-direction: column;
+    height: 30rem;
+    justify-content: space-around;
+}
+.card4{
+    display: flex;
+    flex-direction: column;
+    height: 30rem;
+    justify-content: space-around;
 }
